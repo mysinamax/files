@@ -1,6 +1,17 @@
 {
-  "spider": "",
+  "spider": "https://zl.wpscdn.cn/2026/07/31/space_img/3df86201-c1e9-41cf-b007-73e952fc00aa.jpg;md5;b119c66d47a062cd19d680a81b75d8f1",
+  "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
+    {    
+      "key": "点我切源",
+      "name": "豆瓣荐片",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },    
     {
       "key": "csp_AppYs360",
       "name": "🛡️ 360资源",
@@ -156,7 +167,6 @@
       }
     }
   ],
-  "lives": [],
   "ijk": [
     {
       "group": "硬解码",
@@ -169,6 +179,5 @@
       ]
     }
   ],
-  "wallpaper": "",
-  "logo": ""
+  "lives": []  
 }
