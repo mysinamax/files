@@ -206,7 +206,13 @@
       "exclude": [".*\\.mp4.*ad.*", ".*\\?ad=.*"]
     }
   ],
-  "lives": [],
+  "lives": [
+      {    "name": "萌萌TV",
+      "type": 0,
+      "url": "http://45.192.97.170:5211/233747",
+      "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+     }
+  ],
 "ijk": [
   {
     "group": "硬解码",
