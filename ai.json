@@ -1,0 +1,224 @@
+{
+  "spider": "",
+  "sites": [
+      {
+      "key": "csp_AppYs360",
+      "name": "🛡️ 360资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://360zy.com/api.php/provide/vod/at/json/"
+    },
+   {
+      "key": "LiangZi",
+      "name": "🍋 量子资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8"
+    },
+    {
+      "key": "HongNiu",
+      "name": "🐮 红牛资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8"
+    },
+    {
+      "key": "HuoHu",
+      "name": "🦊 火狐资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://hhzyapi.com/api.php/provide/vod"
+    },
+    {
+      "key": "YouZhi",
+      "name": "🌟 优质资源库",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://api.1080zyku.com/inc/api.php/provide/vod"
+    },
+    {
+      "key": "HaiWaiKan",
+      "name": "🌍 海外看资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://haiwaikan.com/api.php/provide/vod"
+    },
+    {
+      "key": "HeiMuEr",
+      "name": "🍄 黑木耳点播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.heimuer.tv/api.php/provide/vod"
+    },
+    {
+      "key": "QiHu",
+      "name": "🐯 奇虎资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://caiji.qhzyapi.com/api.php/provide/vod"
+    },
+    {
+      "key": "Jisu",
+      "name": "⚡ 极速资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jszyapi.com/api.php/provide/vod/"
+    },
+    {
+      "key": "bdys",
+      "name": "🎬 哔嘀影视(需嗅探)",
+      "type": 3,
+      "api": "csp_Bdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yingshi",
+      "name": "🎞️ 影视工场(需嗅探)",
+      "type": 3,
+      "api": "csp_YingShi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "waiwai",
+      "name": "📺 歪歪视频(需嗅探)",
+      "type": 3,
+      "api": "csp_WaiWai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "⚡极速官方解析",
+      "type": 1,
+      "url": "https://jisuzyjx.com/play/?url=",
+      "ext": {"flag": ["jsyun", "jsm3u8"]}
+    },
+    {
+      "name": "⚡极速备用解析",
+      "type": 1,
+      "url": "https://jisuzyjiexi.com/play/?url=",
+      "ext": {"flag": ["jsyun"]}
+    },
+    {
+      "name": "Json聚合解析",
+      "type": 1,
+      "url": "https://json.oorl.cn/?url="
+    },
+    {
+      "name": "备用聚合解析",
+      "type": 1,
+      "url": "https://jx.jsonplayer.com/s/?url="
+    },
+    {
+      "name": "官解·聚合",
+      "type": 1,
+      "url": "http://www.pouup.com/?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      }
+    },
+    {
+      "name": "聚合解析A",
+      "type": 1,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      }
+    },
+    {
+      "name": "聚合解析B",
+      "type": 1,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      }
+    },
+    {
+      "name": "解析嗅探",
+      "type": 0,
+      "url": "https://www.mtosnz.com/m0.php?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      }
+    }
+  ],
+  "flags": [
+    "qq",
+    "qiyi",
+    "imgo",
+    "letv",
+    "sohu",
+    "youku",
+    "bilibili",
+    "xigua",
+    "1905"
+  ],
+  "rules": [
+    {
+      "name": "通用m3u8嗅探",
+      "hosts": ["bdys", "yingshi", "waiwai"],
+      "regex": [".*\\.m3u8.*", ".*\\.mp4.*"]
+    },
+    {
+      "name": "过滤广告视频",
+      "hosts": ["bdys", "yingshi", "waiwai"],
+      "exclude": [".*\\.mp4.*ad.*", ".*\\?ad=.*"]
+    }
+  ],
+  "lives": [],
+"ijk": [
+  {
+    "group": "硬解码",
+    "options": [
+      {
+        "category": 4,
+        "name": "mediacodec",
+        "value": 1
+      }
+    ]
+  }
+],
+  "wallpaper": "",
+  "logo": ""
+}
