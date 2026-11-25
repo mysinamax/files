@@ -589,9 +589,9 @@
       "playerType": 2
     },
     {
-      "name": "⑶IPTV Center直播",
+      "name": "⑶CF部署sur155直播",
       "type": 0,
-      "url": "https://ghproxy.jsyfhome.dpdns.org/https://xymm.1000s.dpdns.org/377497/txt",
+      "url": "https://ysp1314.jsyfcode.ccwu.cc/all.m3u?token=Jy99887766",
       "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
     },
     {
