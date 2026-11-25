@@ -4,7 +4,7 @@
   "sites": [
     {    
       "key": "点我切源",
-      "name": "豆瓣荐片",
+      "name": "马氏一族观影愉快",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -579,7 +579,7 @@
     {
       "name": "⑴KataBump部署直播",
       "type": 0,
-      "url": "http://145.239.65.119:20218/all.m3u",
+      "url": "http://145.239.65.119:20218/cctv.m3u",
       "playerType": 2
     },
     {
