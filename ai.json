@@ -582,7 +582,7 @@
       "url": "http://145.239.65.119:20218/all.m3u",
       "timeout": 10,
       "changeable": 1,
-      "playerType": 1,
+      "playerType": 2,
       "ua": "okhttp/3.15"
     },
     {
@@ -598,7 +598,11 @@
       "name": "⑶CF部署sur155直播",
       "type": 0,
       "url": "https://ysp1314.jsyfcode.ccwu.cc/all.m3u?token=Jy99887766",
-      "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+      "epg": "https://ysp1314.jsyfcode.ccwu.cc/epg.xml?token=Jy99887766",
+      "timeout": 10,
+      "changeable": 1,
+      "playerType": 2,
+      "ua": "okhttp/3.15"      
     },
     {
       "name": "⑷🛰️CF域名TXT直播",
