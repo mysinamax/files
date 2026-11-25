@@ -580,13 +580,19 @@
       "name": "⑴KataBump部署直播",
       "type": 0,
       "url": "http://145.239.65.119:20218/all.m3u",
-      "playerType": 2
+      "timeout": 10,
+      "changeable": 1,
+      "playerType": 1,
+      "ua": "okhttp/3.15"
     },
     {
       "name": "⑵NV域名YSP直播",
       "type": 0,
       "url": "https://mg.jsyfcode.dpdns.org/txt",
-      "playerType": 2
+      "timeout": 10,
+      "changeable": 1,
+      "playerType": 1,
+      "ua": "okhttp/3.15"
     },
     {
       "name": "⑶CF部署sur155直播",
@@ -599,14 +605,20 @@
       "type": 0,
       "url": "https://txt.jsyfcode.ccwu.cc/",
       "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}",
-      "playerType": 2
+      "timeout": 10,
+      "changeable": 1,
+      "playerType": 1,
+      "ua": "okhttp/3.15"
     },
     {
       "name": "⑸订阅直播",
       "type": 0,
       "url": "https://ghproxy.jsyfhome.dpdns.org/https://live.ottiptv.cc/iptv.m3u?userid=6320786386&sign=036b37e9e5d7e1724e97a92b6a7fd5dce5702dcf102f51360686ed467f6047bcbd900dd6842c204facdaddc8137f94a3a0a2053daa4878bd96f3a4d9c8fc9ab35f87509495f440&auth_token=7ee21037e831ad7453963c9360f92bac",
       "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}",
-      "playerType": 2
+      "timeout": 10,
+      "changeable": 1,
+      "playerType": 1,
+      "ua": "okhttp/3.15"
     },
     {
       "name": "⑹猫影视TV",
@@ -615,43 +627,34 @@
       "playerType": 2
     },
     {
-      "name": "⑺ONE直播",
+      "name": "🍄萌萌TV",
       "type": 0,
-      "url": "https://ghproxy.jsyfhome.dpdns.org/https://raw.githubusercontent.com/my521jf/my521jf.github.io/refs/heads/main/one.txt",
-      "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+      "url": "http://45.192.97.170:5211/233747",
+      "playerType": 1    
     },
     {
-      "name": "⑻3w部",
+      "name": "🐎小马综合 ┃ 高清直播",
+      "type": 0,
+      "url": "https://szyyds.cn/tv/live/x.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "🌐3w部",
       "type": 0,
       "url": "https://my521jf.github.io/txt/3wb.txt",
       "playerType": 2
     },
     {
-      "name": "⑼YY影视",
+      "name": "🌐YY影视",
       "type": 0,
       "url": "https://ghproxy.jsyfhome.dpdns.org/https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u",
       "playerType": 2
     },
     {
-      "name": "⑽萌萌TV",
-      "type": 0,
-      "url": "http://45.192.97.170:5211/233747",
-      "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
-    },
-    {
-      "name": "⑾体育赛事",
-      "type": 0,
-      "url": "http://45.192.97.170:5211/789123",
-      "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
-    },
-    {
-      "name": "⑿体育赛事",
-      "type": 0,
-      "url": "https://xymm.tv12.xyz/live.txt=789123",
-      "playerType": 2
-    },
-    {
-      "name": "fnos",
+      "name": "📺fnos",
       "type": 0,
       "url": "http://172.16.8.96:7788/",
       "playerType": 2
