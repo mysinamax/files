@@ -577,7 +577,13 @@
   ],
   "lives": [
     {
-      "name": "⑴KataBump部署直播",
+      "name": "⑴萌萌TV",
+      "type": 0,
+      "url": "http://45.192.97.170:5211/233747",
+      "playerType": 1    
+    },
+    {
+      "name": "⑵KataBump部署直播",
       "type": 0,
       "url": "http://145.239.65.119:20218/all.m3u",
       "timeout": 10,
@@ -586,7 +592,7 @@
       "ua": "okhttp/3.15"
     },
     {
-      "name": "⑵NV域名YSP直播",
+      "name": "⑶NV域名YSP直播",
       "type": 0,
       "url": "https://mg.jsyfcode.dpdns.org/txt",
       "timeout": 10,
@@ -595,7 +601,7 @@
       "ua": "okhttp/3.15"
     },
     {
-      "name": "⑶CF部署sur155直播",
+      "name": "⑷CF部署sur155直播",
       "type": 0,
       "url": "https://ysp1314.jsyfcode.ccwu.cc/all.m3u?token=Jy99887766",
       "epg": "https://ysp1314.jsyfcode.ccwu.cc/epg.xml?token=Jy99887766",
@@ -605,7 +611,7 @@
       "ua": "okhttp/3.15"      
     },
     {
-      "name": "⑷🛰️CF域名TXT直播",
+      "name": "⑸CF域名TXT直播",
       "type": 0,
       "url": "https://txt.jsyfcode.ccwu.cc/",
       "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}",
@@ -615,7 +621,7 @@
       "ua": "okhttp/3.15"
     },
     {
-      "name": "⑸订阅直播",
+      "name": "🍄订阅直播",
       "type": 0,
       "url": "https://ghproxy.jsyfhome.dpdns.org/https://live.ottiptv.cc/iptv.m3u?userid=6320786386&sign=036b37e9e5d7e1724e97a92b6a7fd5dce5702dcf102f51360686ed467f6047bcbd900dd6842c204facdaddc8137f94a3a0a2053daa4878bd96f3a4d9c8fc9ab35f87509495f440&auth_token=7ee21037e831ad7453963c9360f92bac",
       "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}",
@@ -625,16 +631,10 @@
       "ua": "okhttp/3.15"
     },
     {
-      "name": "⑹猫影视TV",
+      "name": "🛰️猫影视TV",
       "type": 0,
       "url": "http://rihou.cc:555/gggg.nzk",
       "playerType": 2
-    },
-    {
-      "name": "🍄萌萌TV",
-      "type": 0,
-      "url": "http://45.192.97.170:5211/233747",
-      "playerType": 1    
     },
     {
       "name": "🐎小马综合 ┃ 高清直播",
